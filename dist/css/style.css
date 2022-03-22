@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap");
+.login_wrapper {
+  border: 1px solid grey;
+  width: 20%;
+  margin: 5% auto;
+  padding: 2%;
+}
+
+#login_form input {
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #464646;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.t-center {
+  text-align: center;
+}
+
+strong {
+  text-transform: uppercase;
+}
+
+.main-content {
+  background-color: #f1f2f6;
+  padding: 3% 0;
+}
+
+.col-4 {
+  width: 20%;
+  background-color: white;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tbl-full {
+  width: 100%;
+}
+
+.tbl-30 {
+  width: 30%;
+}
+
+table tr th {
+  border-bottom: 1px solid black;
+  padding: 1%;
+  text-align: left;
+}
+
+td {
+  padding: 1%;
+}
+
+.btn-primary {
+  background-color: #1e90ff;
+  color: white;
+  padding: 0.5% 1%;
+  margin: 1% 0;
+  display: inline-block;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #3742fa;
+}
+
+.btn-sec {
+  background-color: #7bed9f;
+  color: white;
+  padding: 0.5% 1%;
+  margin: 1% 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #2c7543;
+  cursor: pointer;
+}
+
+.btn-sec:hover {
+  background-color: #2ed573;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #c0392b;
+  color: white;
+  padding: 0.5% 1%;
+  margin: 1% 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-danger:hover {
+  background-color: #e74c3c;
+}
+
+.alert-s {
+  color: #2ed573;
+}
+
+.alert-error {
+  color: red;
+}
+
+.footer {
+  background-color: tomato;
+}
+
+.menu {
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+
+.menu_list {
+  list-style-type: none;
+}
+
+.menu_list-item {
+  display: inline;
+}
+
+.menu_list-item a {
+  padding: 1%;
+  text-decoration: none;
+  font-weight: bold;
+  color: #464646;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.menu_list-item a:hover {
+  color: #d6b15f;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,8 @@
+$menu-color: #464646;
+$menu-hover: #d6b15f;
+$bg-color: #f1f2f6;
+
+
+@mixin tranisiton($sec) {
+    transition: all $sec ease;
+}

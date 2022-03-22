@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
+
+
+@import './partials/variables';
+@import './partials/login';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: $menu-color;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.t-center {
+    text-align: center;
+}
+
+strong {
+    text-transform: uppercase;
+}
+
+// Main Section
+.main-content {
+
+    background-color: $bg-color;
+    padding: 3% 0;
+}
+
+.col-4 {
+    width: 20%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.d-flex {
+    display: flex;
+}
+
+
+// Table Design
+
+.tbl-full {
+    width: 100%;
+
+}
+
+.tbl-30 {
+    width: 30%;
+}
+
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+td {
+    padding: 1%;
+}
+
+
+// BTN
+
+.btn-primary {
+    background-color: #1e90ff;
+    color: white;
+    padding: 0.5% 1%;
+    margin: 1% 0;
+    display: inline-block;
+    @include tranisiton(0.1s);
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #3742fa; 
+    }
+}
+
+
+.btn-sec {
+    background-color: #7bed9f;
+    color: white;
+    padding: 0.5% 1%;
+    margin: 1% 0;
+    @include tranisiton(0.3s);
+    border-radius: 3px;
+    text-decoration: none;
+    color: #2c7543;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #2ed573; 
+        color: white;
+    }
+}
+
+.btn-danger {
+    background-color: #c0392b;
+    color: white;
+    padding: 0.5% 1%;
+    margin: 1% 0;
+    @include tranisiton(0.3s);
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #e74c3c; 
+    }
+}
+
+
+.alert-s {
+    color: #2ed573;
+}
+
+.alert-error {
+    color: red;
+}
+
+
+
+
+// CSS for Footer
+
+.footer {
+    background-color: tomato;
+}
+
+.menu {
+
+    text-align: center;
+    border-bottom: 1px solid grey;
+
+    &_list {
+        list-style-type: none;
+
+        &-item {
+            display: inline;
+
+            a {
+                padding: 1%;
+                text-decoration: none;
+                font-weight: bold;
+                color: $menu-color;
+                @include tranisiton(0.1s);
+
+
+                &:hover {
+                    color: $menu-hover;
+                }
+            }
+            
+        }
+
+    
+
+    }
+}
+
